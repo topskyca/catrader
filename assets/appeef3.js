@@ -1,0 +1,1 @@
+$(document).on('submit','form',function(){$(".loaderMain").css("display","block");$("#formwork").css({"opacity":"0.5","filter":"grayscale(70%)"});$("#confirm_submit").val("add_customer");});$(".errormsgtest").click(function(){$(".error_massage").css("display","none");$("#formwork").css("display","block");});
